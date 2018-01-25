@@ -26,6 +26,41 @@ p {
   padding: 1em 0;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
 /* Header Showcase */
 
 #showcase {
@@ -128,9 +163,12 @@ p {
     grid-template-columns: 1fr repeat(2, minmax(auto,25em)) 1fr;
   }
 
-  .content-wrap,
-  #section-b ul {
+  .content-wrap {
     grid-column: 2/4;
+  }
+
+  #section-b ul {
+    grid-column: 1/5;
   }
 
   .box, #main-footer div {
